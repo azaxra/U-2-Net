@@ -1,2 +1,2 @@
-Video Background Removal with U2Net
+Video Background Removal with U^2Net
 coming soon!
