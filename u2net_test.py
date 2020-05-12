@@ -57,8 +57,8 @@ def main():
     model_name='u2net'#u2netp
 
 
-    image_dir = './test_data/test_images/'
-    prediction_dir = './test_data/' + model_name + '_results/'
+    image_dir = './save_images/images/'
+    prediction_dir = './save_images/' + model_name + '_result/'
     model_dir = './saved_models/'+ model_name + '/' + model_name + '.pth'
 
     img_name_list = glob.glob(image_dir + '*')
